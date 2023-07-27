@@ -7,6 +7,8 @@
 #define SERIAL_USART_RX_PIN GP1   // USART RX pin
 #define SERIAL_USART_PIN_SWAP     // Swap TX and RX pins if keyboard is master halve.
 #define EE_HANDS // Split handedness via eeprom
+#define SPLIT_USB_TIMEOUT_POLL 10
+#define SPLIT_USB_TIMEOUT 10000
 #define SPLIT_WATCHDOG_ENABLE
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
